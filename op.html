@@ -1,31 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  
+
+</head>
 <style>
-div.example {
-  background-color: yellow;
-  padding: 0px;
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+html {
+  font-family: "Anton", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-  div.example {
-    display: none;
-  }
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 10.5vw;
+  line-height: 1.05em;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 0.5vw;
+  margin: 0;
+  background: linear-gradient(124deg, #c53d3d 19%, #000 19%, #000 20%, #56b337 20%, #56b337 39%, #000 39%, #000 40%, #3a47d3 40%, #3a47d3 59%, #000 59%, #000 60%, #e1ed2f 60%, #e1ed2f 79%, #000 79%, #000 80%, #c318be 80%, #c318be 100%);
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  transition: all 0.5s;
 }
 </style>
-</head>
-<body style="
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px; ">
-
-<h2 style="text-align:center;">Handkrafty Made With Love </h2>
-
-<div class="example"><iframe src="https://web.shoopy.in/#/login" name="iframe_a" height="1000px" width="100%" title="Iframe Example" style="margin:0px;border-top-width: 0px;"></iframe></div>
-<a href="https://wa.me/+919438052022"><button>Click me</button></a>
-<p>Please use Laptop Browser For a better  Experience.</p>
-
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="wrapper">
+    <h1>Call us<br/> us on<br/> 7077011447</h1>
+  </div>
+</div>
+<!-- partial -->
+  
 </body>
 </html>
